@@ -3,7 +3,7 @@ using html css and javascript where user can search for images with help of unsp
 
 This is a simple image search engine that uses the [Unsplash Custom Search API](https://unsplash.com/developers).
 
-Watch it in [Action] :- https://praful-dev.github.io/Image_Search_Engine/
+Watch it in [action] :- https://praful-dev.github.io/Image_Search_Engine/
 
 ## How to use
 1. Enter the query in the search bar.
