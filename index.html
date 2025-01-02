@@ -8,10 +8,22 @@
 </head>
 <body>
     <h1>Image Search Engine</h1>
-    <form  id="search-form">
+    <form id="search-form">
         <input type="text" id="search-box" placeholder="Search Anything Here....">
         <button>Search</button>
     </form>
-    
+
+    <div id="search-result"></div>
+    <button id="show-more-btn">Show More</button>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script>
+  const grid = document.querySelector('.grid');
+  const msnry = new Masonry(grid, {
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true
+  });
+</script>
 </body>
 </html>
