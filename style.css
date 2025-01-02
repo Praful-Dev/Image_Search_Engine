@@ -51,6 +51,8 @@ form button {
     cursor: pointer;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+
+    
 }
 
 ::placeholder {
@@ -95,3 +97,9 @@ form button {
     width: 100%; /* Make images responsive */
     break-inside: avoid; /* Prevent images from breaking between columns */
   }
+
+
+
+  /* ///////////// */
+
+  
